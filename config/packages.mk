@@ -23,6 +23,7 @@ PRODUCT_PACKAGES += \
     WallpaperPickerGooglePrebuilt \
     Stk \
     PhoneLocationProvider \
+    ForceStop \
     Recorder \
     Music \
     ViaBrowser \
