@@ -14,7 +14,7 @@
 # limitations under the License.
 
 
-PRODUCT_BRAND ?= SuperiorOS
+PRODUCT_BRAND ?= LeChenOS
 
 include vendor/superior/config/version.mk
 
@@ -30,6 +30,10 @@ PRODUCT_COPY_FILES += \
     vendor/superior/prebuilt/common/bin/backuptool_ab.functions:system/bin/backuptool_ab.functions \
     vendor/superior/prebuilt/common/bin/backuptool_postinstall.sh:system/bin/backuptool_postinstall.sh
 endif
+
+# Phonelocation!
+PRODUCT_COPY_FILES +=  \
+    vendor/arrow/prebuilt/common/media/location/suda-phonelocation.dat:system/media/location/suda-phonelocation.dat
 
 # priv-app permissions
 PRODUCT_COPY_FILES += \
@@ -108,6 +112,9 @@ PRODUCT_BOOT_JARS += \
 
 # Bootanimation
 include vendor/superior/config/bootanimation.mk
+
+# Pixel Style
+include vendor/pixelstyle/config.mk
 
 #Telephony
 $(call inherit-product, vendor/superior/config/telephony.mk)

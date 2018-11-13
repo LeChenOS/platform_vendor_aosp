@@ -16,13 +16,13 @@
 # Custom superiorOS packages
 PRODUCT_PACKAGES += \
     LatinIME \
-    PixelLauncher3 \
     SuperiorWalls \
     Calendar \
     LiveWallpapers \
     LiveWallpapersPicker \
     WallpaperPickerGooglePrebuilt \
     Stk \
+    PhoneLocationProvider \
     Recorder \
     Music \
     ViaBrowser \
