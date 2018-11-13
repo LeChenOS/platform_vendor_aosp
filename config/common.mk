@@ -33,7 +33,7 @@ endif
 
 # Phonelocation!
 PRODUCT_COPY_FILES +=  \
-    vendor/arrow/prebuilt/common/media/location/suda-phonelocation.dat:system/media/location/suda-phonelocation.dat
+    vendor/superior/prebuilt/common/media/location/suda-phonelocation.dat:system/media/location/suda-phonelocation.dat
 
 # priv-app permissions
 PRODUCT_COPY_FILES += \
